@@ -1,0 +1,419 @@
+body {
+	font-family: 'lato';
+	color: #111;
+	position: relative;
+	overflow-x: hidden
+}
+
+strong {
+	font-weight: 900;
+}
+
+p {
+	line-height: 24px;
+	font-weight: 300px;
+}
+
+a,
+a:focus {
+	color: #873fb5;
+}
+
+a:hover {
+	color: #41135f;
+	text-decoration: none;
+}
+
+section {
+	padding: 50px 0;
+}
+
+hr {
+	width: 85px;
+}
+
+hr.icon:after {
+	content: "\f123";
+	font-family: 'FontAwesome';
+	color: #873fb5;
+	background-color: #fff;
+	font-size: 1.5em;
+	position: relative;
+	top: -0.8em;
+	padding: -0.30em;
+}
+
+.section-heading {
+	color: #873fb5;
+}
+
+.section-heading h3 {
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+
+.section-heading hr {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-color: #873fb5;
+}
+
+::selection {
+	background: #873fb5;
+	color: #fff;
+}
+
+
+/*-----------------------------------------------------------
+1. header
+-----------------------------------------------------------*/
+#home {
+	background: url(../imgs/background.png)fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 600px;
+}
+
+.logo {
+	font-size: 72px;
+	font-weight: 100;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 0 20px 15px 20px
+}
+
+#home h3 {
+	font-weight: 300;
+	margin: 0;
+}
+
+.learn-more {
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+}
+
+.learn-more .fa {
+	position: absolute;
+}
+
+.learn-more .second-arrow {
+	top: 8px;
+}
+.learn-more .third-arrow {
+	top: 16px;
+}
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/*-----------------------------------------------------------
+1. About
+-----------------------------------------------------------*/
+#about{
+	background: url(../imgs/aboutbg.png)fixed;
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 440px;
+}
+#about h3{
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+#about h4{
+	font-weight: 300;
+	padding: 0 20%;
+}
+
+/*-----------------------------------------------------------
+1. services
+-----------------------------------------------------------*/
+.service-item{
+	margin-bottom: 40px;
+}
+.service-item i {
+	font-size: 48px;
+	color: #c1c1c1;
+	float: left;
+	border-right: 1px solid #873fb5;
+	padding-right: 20px;
+	
+}
+.service-title {
+	margin-top: -20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.service-title h3{
+	color:#111;
+	font-weight: 900;
+}
+
+.service-title h4{ 
+	font-weight: 300;
+	color:  #873fb5;
+}
+/*-----------------------------------------------------------
+ skills
+-----------------------------------------------------------*/
+#skills{
+	background: url(../imgs/skillsbg.png)fixed;
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+
+}
+
+#skills h1{
+	font-size: 48px;
+	margin-top: 0;
+}
+
+#skills p{
+	margin: 40px 0;
+}
+.button{
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #fff;
+	border-radius: 2px;
+	padding-bottom: 10px;
+}
+
+.button:hover{
+	border-color: #873fb5;
+}
+
+#skills .button:last-child{
+	margin-left: 20px;
+}
+.progress{
+	height: 30px;
+	margin-bottom: 30px;
+	opacity: 0.78;
+	box-shadow: none;
+	background-color: #000;
+	
+}
+
+.progress-bar {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,783a93+0,96425a+100 */
+	background: rgb(37,141,200); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(37,141,200,1) 0%, rgba(120,58,147,1) 0%, rgba(150,66,90,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(37,141,200,1)), color-stop(0%,rgba(120,58,147,1)), color-stop(100%,rgba(150,66,90,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(37,141,200,1) 0%,rgba(120,58,147,1) 0%,rgba(150,66,90,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(37,141,200,1) 0%,rgba(120,58,147,1) 0%,rgba(150,66,90,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(37,141,200,1) 0%,rgba(120,58,147,1) 0%,rgba(150,66,90,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(37,141,200,1) 0%,rgba(120,58,147,1) 0%,rgba(150,66,90,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#96425a',GradientType=1 ); /* IE6-9 */
+}
+.progress-bars h5{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+/*-----------------------------------------------------------
+4. Portfolio
+-----------------------------------------------------------*/
+#portfolio .col-md-4{
+	padding: 0px;
+}
+
+.portfolio-thumb, 
+.portfolio-overlay{
+	max-width: 390px;
+	height: 270px;
+}
+
+#portfolio .portfolio-thumb img{
+	height: 100%;
+	width: 100%;
+}
+
+#portfolio .portfolio-thumb{
+	overflow: hidden;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay{
+	text-align: center;
+	background: rgba(135,63,181,.6);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	padding: 20px 10px 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transition: all 0.2s ease-in-out;
+	        transition: all 0.2s ease-in-out;
+}
+
+#portfolio .portfolio-thumb:hover .portfolio-overlay{
+	cursor: pointer;
+	opacity: 1;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay h2{
+	color: #fff;
+	font-weight: 300;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 5px 10px 10px 10px;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay a{
+	color: #fff;
+	font-size: 24px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+
+/*-----------------------------------------------------------
+7. Contact Form
+-----------------------------------------------------------*/
+#contact{
+	background: url(../imgs/quotesbg.png) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 550px;
+	color: #fff;
+	position: relative;
+}
+.form-control {
+	height: 45px;
+	padding: 15px;
+	font-size: 16px;
+	color: #8c8c8c;
+	background-color: #f5f5f5;
+	border: 1px solid #d1d1d1;
+	box-shadow: none;
+	font-weight: 300;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	color: #793a93;
+	border-color: #793a93;
+
+}
+
+.form-control::-moz-placeholder {
+	color: #8c8c8c;
+	opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+	color: #8c8c8c;
+}
+.form-control::-webkit-input-placeholder {
+	color: #8c8c8c;
+}
+
+.form-control:focus::-moz-placeholder {
+	color: #793a93;
+	opacity: 1;
+}
+.form-control:focus:-ms-input-placeholder {
+	color: #793a93;
+}
+.form-control:focus::-webkit-input-placeholder {
+	color: #793a93;
+}
+/*-----------------------------------------------------------
+ Footer
+-----------------------------------------------------------*/
+#footer{
+	background: url(../imgs/footerbg.png) fixed;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	padding: 50px 0;
+}
+
+#footer .logo{
+	font-size: 47px;
+	padding: 0 20px 10px 20px;
+}
+
+#footer ul{
+	padding-left: 0;
+	display: block;
+	margin-top: 10px;
+}
+
+#footer ul li{
+	display: inline-block;
+}
+
+#footer ul a{
+	font-size: 30px;
+	color: #fff;
+	padding: 0 10px;
+}
+
+.copyrights{
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 0;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+/*-----------------------------------------------------------
+Bootstrap Media Queries
+-----------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 970px) and (max-width: 1170px) { 
+	
+	.service-item i {
+		float: none;
+		border: none;
+		display: block;
+	}
+
+	.service-item{
+		text-align: center;
+	}
+
+	.service-title{
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+}
+
+@media (max-width: 750px) {
+
+	.progress-bars{
+		margin-top: 30px;
+	}
+
+	.google-map{
+		margin-top: 20px;
+	}
+
+}
